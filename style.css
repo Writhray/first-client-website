@@ -44,3 +44,50 @@ footer {
     text-align: center;
     color: #6d5b50;
 }
+
+section {
+    margin-top: 50px;
+}
+
+section h2 {
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0;
+    padding: 18px 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(52, 37, 31, 0.08);
+    text-align: left;
+}
+
+.menu-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.menu-item strong {
+    white-space: nowrap;
+    color: #8a482d;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    main {
+        margin: 30px auto;
+        padding: 16px;
+    }
+
+    .menu-item {
+        padding: 14px;
+    }
+}
