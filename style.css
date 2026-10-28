@@ -76,7 +76,6 @@ section h2 {
     white-space: nowrap;
     color: #8a482d;
 }
-
 @media (max-width: 480px) {
     h1 {
         font-size: 32px;
